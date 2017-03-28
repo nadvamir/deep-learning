@@ -11,7 +11,7 @@ def test_create_lookup_tables(create_lookup_tables):
     with tf.Graph().as_default():
         test_text = '''
         Moe_Szyslak Moe's Tavern Where the elite meet to drink
-        Bart_Simpson Eh yeah hello is Mike there Last name Rotch
+        Bart_Simpson Eh yeah ||return|| hello is Mike there Last name Rotch
         Moe_Szyslak Hold on I'll check Mike Rotch Mike Rotch Hey has anybody seen Mike Rotch lately
         Moe_Szyslak Listen you little puke One of these days I'm gonna catch you and I'm gonna carve my name on your back with an ice pick
         Moe_Szyslak Whats the matter Homer You're not your normal effervescent self
